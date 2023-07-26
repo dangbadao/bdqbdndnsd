@@ -1,20 +1,41 @@
+-- local ScreenGui = Instance.new("ScreenGui")
+-- local Frame = Instance.new("Frame")
+-- local TextButton = Instance.new("TextButton")
+
+-- ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Frame.Parent = ScreenGui
+-- Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+-- Frame.Position = UDim2.new(0.854592339, 0, 0.708185185, 0)
+-- Frame.Size = UDim2.new(0, 100, 0, 100)
+
+-- TextButton.Parent = ScreenGui
+-- TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+-- TextButton.Position = UDim2.new(0.855424271, 0, 0.70818518537, 0)
+-- TextButton.Size = UDim2.new(0, 99, 0, 100)
+-- TextButton.Modal = true
+-- TextButton.Font = Enum.Font.SourceSans
+-- TextButton.Text = "DONE"
+-- TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+-- TextButton.TextSize = 37.000
+
 local ScreenGui = Instance.new("ScreenGui")
-    local Frame = Instance.new("Frame")
-    local TextButton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
 
-    ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-    Frame.Parent = ScreenGui
-    Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Frame.Position = UDim2.new(0.854592339, 0, 0.708185185, 0)
-    Frame.Size = UDim2.new(0, 100, 0, 100)
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.294592339, 0, 0.15185185, 0)
+Frame.Size = UDim2.new(0, 100, 0, 100)
 
-    TextButton.Parent = ScreenGui
-    TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-    TextButton.Position = UDim2.new(0.855424271, 0, 0.70818518537, 0)
-    TextButton.Size = UDim2.new(0, 99, 0, 100)
-    TextButton.Modal = true
-    TextButton.Font = Enum.Font.SourceSans
-    TextButton.Text = "DONE"
-    TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-    TextButton.TextSize = 37.000
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.Position = UDim2.new(0.295424271, 0, 0.1518518537, 0)
+TextButton.Size = UDim2.new(0, 99, 0, 100)
+TextButton.Modal = true
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "DONE"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 37.000
