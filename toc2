@@ -1,0 +1,15 @@
+-- method banana auto pull level
+repeat task.wait(3) until game:IsLoaded()
+spawn(function()
+    Configs = {
+            ["Pull"] = "https://raw.githubusercontent.com/dangbadao/bdqbdndnsd/main/gatcann"
+        }
+        Config = Configs["Pull"]
+        if not Config then return print("CC") end 
+        p = game:GetService("HttpService"):JSONDecode(game:HttpGet(Config))
+        if not isfolder("Banana Hub") then makefolder("Banana Hub") end 
+        writefile("Banana Hub".."/"..game.Players.LocalPlayer.Name.."-".."BloxFruit"..".json",game:GetService("HttpService"):JSONEncode(p))
+    end)
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+-- work normally
