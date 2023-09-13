@@ -8,7 +8,7 @@ spawn(function()
         if not Config then return print("CC") end 
         p = game:GetService("HttpService"):JSONDecode(game:HttpGet(Config))
         if not isfolder("Mukuro/BF") then makefolder("Mukuro/BF") end 
-        if not isfile("Mukuro/Key.txt") then writefile("Mukuro/Key.txt", "36eanntp6t2jm2vz27s4") end
+        if not isfile("Mukuro/Key.txt") then writefile("Mukuro/Key.txt", "mf2kdf6wmptw9xrjr8uz") end
         writefile("Mukuro/BF".."/"..game.Players.LocalPlayer.Name.."_"..game.Players.LocalPlayer.UserId..".json",game:GetService("HttpService"):JSONEncode(p))
     end)
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
