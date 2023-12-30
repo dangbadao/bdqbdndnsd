@@ -1,0 +1,13 @@
+{
+"RemoveLavaEvents":false,
+"WhiteScreen":false,
+"AutoParry":true,
+"AutoRandomSword":false,
+"FocusBallCamera":true,
+"Al_Auto_Walk":true,
+"AutoCollcetSock":false,
+"InfFreeze":false,
+"FocusBallTP":false,
+"BackLobbyRank":false,
+"Version":"MARUNEWUI"
+}
